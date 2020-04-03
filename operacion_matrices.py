@@ -6,7 +6,6 @@ def sumar(matA, matB):
     if (filasA==filasB and columnA==columnB):
         resultS=matA+matB
     print("\n----------------------\n"); print("La matriz que resulta de sumar A y B es:"); print(resultS); print("Programa finalizado. Hasta pronto.\n")
-        
 
 def multiplicar( matA, matB):
     if (columnA==filasB):
@@ -129,7 +128,7 @@ elif (action=='resolver sistema de ecuaciones'):
     columnB=int(input('Columnas de la matriz B: '))
     matA=np.zeros([filasA, columnA])
     matB=np.zeros([filasB, columnB])
-    print("\n----------------------\n"); print("NOTA: Si te marca error después de que ingreses los elementos de tu sistema, es porque tu sistema no tiene solución o porque tiene infinidad de soluciones.")
+    print("\n----------------------\n"); print("NOTA: Si te marca error después de que ingreses los elementos de tu sistema, puede ser porque tu sistema no tiene solución, porque tiene infinidad de soluciones o porque no es una matriz cuadrada.")
     print("Introduce los elementos de la matriz A:\n")
     for i in range(0,filasA):
         for j in range(0,columnA):
