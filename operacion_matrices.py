@@ -7,7 +7,6 @@ def sumar(matA, matB):
         resultS=matA+matB
     print("\n----------------------\n"); print("La matriz que resulta de sumar A y B es:"); print(resultS); print("Programa finalizado. Hasta pronto.\n")
         
-
 def multiplicar( matA, matB):
     if (columnA==filasB):
         resultM=matA@matB
